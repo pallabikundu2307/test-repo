@@ -41,3 +41,5 @@ jobs:
 
 # to run this docker image in docker desktop below is the command
 # docker run -p 8080:8080 pallabi2307/cicd_repo
+# to pull latest docker image
+# docker pull pallabi2307/cicd_repo:latest
