@@ -8,9 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
-	public String welcome()
-	{
-		 	return "Demonstrating CI/CD pipeline";
+	public String welcome(){
+		return "Welcome to javatechie !";
 	}
 
 	public static void main(String[] args) {
@@ -18,3 +17,4 @@ public class GithubCicdActionsApplication {
 	}
 
 }
+
