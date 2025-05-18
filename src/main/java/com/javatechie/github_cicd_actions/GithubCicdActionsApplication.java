@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to cicd pipeline demo!";
+		return "Welcome to cicd pipeline demo demo!";
 	}
 
 	public static void main(String[] args) {
